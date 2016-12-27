@@ -27,6 +27,7 @@ database.ref('/').orderByChild('order').once('value').then((snap) => {
       date: date,
       order: queue
     })
+    console.log(queue, val.child('title').val())
 
     queue += 1
   })
