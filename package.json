@@ -1,0 +1,24 @@
+{
+  "name": "preschian-com-firebase-reorder",
+  "version": "1.0.0",
+  "description": "reorder firebase data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preschian/preschian-com-firebase-reorder.git"
+  },
+  "author": "Preschian Febryantara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/preschian/preschian-com-firebase-reorder/issues"
+  },
+  "homepage": "https://github.com/preschian/preschian-com-firebase-reorder#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "firebase": "^3.6.4",
+    "moment": "^2.17.1"
+  }
+}
